@@ -1,0 +1,341 @@
+{
+    "role": "frontend",
+    "technical_questions": {
+        "easy": [
+            {
+                "id": 1,
+                "question": "What is HTML?",
+                "topic" : "html",
+                "concepts": [
+                    "markup language",
+                    "structure of web pages",
+                    "elements and tags"
+                ],
+                "ideal_answer": "HTML is a markup language used to structure web pages using elements and tags to define content like headings, paragraphs, images, and links."
+            },
+            {
+                "id": 2,
+                "question": "What is CSS?",
+                "topic" : "css",
+                "concepts": [
+                    "styling web pages",
+                    "layout and design",
+                    "responsive design"
+                ],
+                "ideal_answer" : "CSS is used to style and design web pages by controlling layout, colors, fonts, and responsiveness across different screen sizes."
+            },
+            {
+                "id": 3,
+                "question": "What is JavaScript?",
+                "topic" : "javascript",
+                "concepts": [
+                    "programming language",
+                    "dynamic behavior",
+                    "client-side scripting"
+                ],
+                "ideal_answer" : "JavaScript is a programming language used to add dynamic behavior and interactivity to web pages, mainly on the client side."
+            },
+            {
+                "id": 4,
+                "question": "What is a web browser and how does it work?",
+                "topic" : "html",
+                "concepts": [
+                    "rendering engine",
+                    "HTML and CSS parsing",
+                    "JavaScript execution"
+                ],
+                "ideal_answer" : "A web browser renders web pages by parsing HTML, CSS, and JavaScript, then displaying the final visual output using a rendering engine"
+            },
+            {
+                "id": 5,
+                "question": "What is responsive design?",
+                "topic" : "system design",
+                "concepts": [
+                    "multiple screen sizes",
+                    "media queries",
+                    "flexible layouts"
+                ],
+                "ideal_answer" : "Responsive design ensures that web pages adapt smoothly to different screen sizes using flexible layouts, media queries, and responsive units"
+            },
+            {
+                "id": 6,
+                "question": "What is the difference between class and id in CSS?",
+                "topic" : "css",
+                "concepts": [
+                    "reusability",
+                    "uniqueness",
+                    "CSS selectors"
+                ],
+                "ideal_answer" : "An id is unique and used for a single element, while a class can be reused across multiple elements for styling purposes"
+            },
+            {
+                "id": 7,
+                "question": "What is Flexbox?",
+                "topic" : "css",
+                "concepts": [
+                    "one-dimensional layout",
+                    "alignment and spacing",
+                    "flexible containers"
+                ],
+                "ideal_answer" : "Flexbox is a one-dimensional layout system in CSS used to align, arrange, and distribute space among items in a container efficiently."
+            },
+            {
+                "id": 8,
+                "question": "What is the purpose of semantic HTML?",
+                "topic" : "html",
+                "concepts": [
+                    "meaningful tags",
+                    "accessibility",
+                    "SEO"
+                ],
+                "ideal_answer" : "Semantic HTML uses meaningful tags to improve accessibility, SEO, and code readability by clearly describing the content’s purpose."
+            },
+            {
+                "id": 9,
+                "question": "What is DOM?",
+                "topic" : "javascript",
+                "concepts": [
+                    "document object model",
+                    "tree structure",
+                    "JavaScript manipulation"
+                ],
+                "ideal_answer" : "DOM stands for Document Object Model, which represents the web page as a tree structure that JavaScript can manipulate dynamically"
+            },
+            {
+                "id": 10,
+                "question": "What is a CDN?",
+                "topic" : "system design",
+                "concepts": [
+                    "content delivery network",
+                    "faster loading",
+                    "distributed servers"
+                ],
+                "ideal_answer" : "A CDN is a content delivery network that distributes website resources across multiple servers to improve loading speed and performance"
+            }
+        ],
+        "medium": [
+            {
+                "id": 11,
+                "question": "What are React components?",
+                "topic" : "react",
+                "concepts": [
+                    "reusable UI blocks",
+                    "functional or class components",
+                    "component composition"
+                ],
+                "ideal_answer" : "React components are reusable UI building blocks that can be functional or class-based and are used to structure the application interface"
+            },
+            {
+                "id": 12,
+                "question": "What is JSX?",
+                "topic" : "react",
+                "concepts": [
+                    "JavaScript XML",
+                    "syntax extension",
+                    "Babel transpilation"
+                ],
+                "ideal_answer" : "JSX is a syntax extension for JavaScript that allows writing HTML-like code inside JavaScript, which is later transpiled by Babel"
+            },
+            {
+                "id": 13,
+                "question": "What is the Virtual DOM?",
+                "topic" : "react",
+                "concepts": [
+                    "lightweight DOM copy",
+                    "diffing algorithm",
+                    "efficient updates"
+                ],
+                "ideal_answer" : "The Virtual DOM is a lightweight copy of the real DOM that React uses to efficiently detect and apply UI changes"
+            },
+            {
+                "id": 14,
+                "question": "What is state in React?",
+                "topic" : "react",
+                "concepts": [
+                    "component data",
+                    "mutable",
+                    "triggers re-render"
+                ],
+                "ideal_answer" : "State is a mutable data object in a React component that holds information and triggers re-rendering when updated"
+            },
+            {
+                "id": 15,
+                "question": "What are props in React?",
+                "topic" : "react",
+                "concepts": [
+                    "data passed from parent",
+                    "immutable",
+                    "component communication"
+                ],
+                "ideal_answer" : "Props are immutable data passed from parent to child components to enable communication and dynamic rendering"
+            },
+            {
+                "id": 16,
+                "question": "Difference between state and props",
+                "topic" : "react",
+                "concepts": [
+                    "mutability",
+                    "ownership",
+                    "data flow direction"
+                ],
+                "ideal_answer" : "State is managed within a component and can change, while props are passed from parent components and are read-only"
+            },
+            {
+                "id": 17,
+                "question": "What is lifting state up?",
+                "topic" : "react",
+                "concepts": [
+                    "shared state",
+                    "parent component",
+                    "data synchronization"
+                ],
+                "ideal_answer" : "Lifting state up means moving shared state to a common parent component so multiple child components can access and update it"
+            },
+            {
+                "id": 18,
+                "question": "What are controlled components?",
+                "topic" : "react",
+                "concepts": [
+                    "form elements",
+                    "state-driven values",
+                    "single source of truth"
+                ],
+                "ideal_answer" : "Controlled components are form elements whose values are controlled by React state, making state the single source of truth"
+            },
+            {
+                "id": 19,
+                "question": "What is a Single Page Application?",
+                "topic" : "javascript",
+                "concepts": [
+                    "single page application",
+                    "client-side routing",
+                    "faster navigation"
+                ],
+                "ideal_answer" : "A Single Page Application loads a single HTML page and dynamically updates content using client-side routing without full page reloads."
+            },
+            {
+                "id": 20,
+                "question": "What is React Router?",
+                "topic" : "react",
+                "concepts": [
+                    "client-side routing",
+                    "route components",
+                    "navigation without reload"
+                ],
+                "ideal_answer" : "React Router is a library used for client-side routing in React applications, enabling navigation without page refresh"
+            }
+        ],
+        "hard": [
+            {
+                "id": 21,
+                "question": "What are React Hooks?",
+                "topic" : "react",
+                "concepts": [
+                    "function component features",
+                    "useState and useEffect",
+                    "rules of hooks"
+                ],
+                "ideal_answer" : "React Hooks allow function components to use state and lifecycle features such as useState and useEffect."
+            },
+            {
+                "id": 22,
+                "question": "What is useEffect and how does it work?",
+                "topic" : "react",
+                "concepts": [
+                    "side effects",
+                    "dependency array",
+                    "component lifecycle behavior"
+                ],
+                "ideal_answer" : "useEffect is a hook used to handle side effects in components and runs based on dependency array changes."
+            },
+            {
+                "id": 23,
+                "question": "What is reconciliation in React?",
+                "topic" : "react",
+                "concepts": [
+                    "virtual DOM comparison",
+                    "diffing algorithm",
+                    "efficient updates"
+                ],
+                "ideal_answer" : "Reconciliation is the process where React compares the Virtual DOM with the previous version to efficiently update the UI."
+            },
+            {
+                "id": 24,
+                "question": "How does React handle re-rendering?",
+                "topic" : "react",
+                "concepts": [
+                    "state or props change",
+                    "component re-execution",
+                    "virtual DOM updates"
+                ],
+                "ideal_answer" : "React re-renders components when state or props change and updates the UI using Virtual DOM comparison."
+            },
+            {
+                "id": 25,
+                "question": "What is memoization in React?",
+                "topic" : "react",
+                "concepts": [
+                    "React.memo",
+                    "useMemo and useCallback",
+                    "performance optimization"
+                ],
+                "ideal_answer" : "Memoization is an optimization technique using React.memo, useMemo, and useCallback to avoid unnecessary re-computations."
+            },
+            {
+                "id": 26,
+                "question": "What are keys in React lists and why are they important?",
+                "topic" : "react",
+                "concepts": [
+                    "unique identification",
+                    "efficient diffing",
+                    "avoid unnecessary re-renders"
+                ],
+                "ideal_answer" : "Keys uniquely identify list items in React and help the Virtual DOM efficiently update and re-render components"
+            },
+            {
+                "id": 27,
+                "question": "How can you optimize performance in a React application?",
+                "topic" : "react",
+                "concepts": [
+                    "code splitting",
+                    "memoization",
+                    "avoid unnecessary re-renders"
+                ],
+                "ideal_answer" : "Performance can be optimized using code splitting, memoization, lazy loading, and avoiding unnecessary re-renders"
+            },
+            {
+                "id": 28,
+                "question": "What is lazy loading in React?",
+                "topic" : "react",
+                "concepts": [
+                    "React.lazy",
+                    "Suspense",
+                    "on-demand loading"
+                ],
+                "ideal_answer" : "Lazy loading allows components to load only when needed using React.lazy and Suspense, improving initial load performance."
+            },
+            {
+                "id": 29,
+                "question": "What happens when state updates in React?",
+                "topic" : "react",
+                "concepts": [
+                    "state batching",
+                    "re-render trigger",
+                    "virtual DOM update"
+                ],
+                "ideal_answer" : "When state updates, React batches updates, re-renders the component, and updates the Virtual DOM efficientl"
+            },
+            {
+                "id": 30,
+                "question": "Difference between useEffect and useLayoutEffect",
+                "topic" : "react",
+                "concepts": [
+                    "execution timing",
+                    "browser paint",
+                    "layout measurement"
+                ],
+                "ideal_answer" : "useEffect runs after the browser paint, while useLayoutEffect runs before paint and is used for layout measurements"
+            }
+        ]
+    }
+}

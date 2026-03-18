@@ -1,0 +1,342 @@
+{
+  "role": "java_developer",
+  "technical_questions": {
+    "easy": [
+      {
+        "id": 1,
+        "question": "What is Java?",
+        "topic": "java_basics",
+        "concepts": [
+          "object-oriented",
+          "platform independent",
+          "JVM"
+        ],
+        "ideal_answer": "Java is an object-oriented, platform-independent programming language that runs on the Java Virtual Machine (JVM)."
+      },
+      {
+        "id": 2,
+        "question": "What are primitive data types in Java?",
+        "topic": "java_basics",
+        "concepts": [
+          "int",
+          "double",
+          "boolean",
+          "char"
+        ],
+        "ideal_answer": "Java has eight primitive data types: byte, short, int, long, float, double, char, and boolean."
+      },
+      {
+        "id": 3,
+        "question": "What is a class and object in Java?",
+        "topic": "oops",
+        "concepts": [
+          "blueprint",
+          "instance",
+          "methods and fields"
+        ],
+        "ideal_answer": "A class is a blueprint for creating objects, and an object is an instance of a class containing fields and methods."
+      },
+      {
+        "id": 4,
+        "question": "What is inheritance in Java?",
+        "topic": "oops",
+        "concepts": [
+          "extends keyword",
+          "code reuse",
+          "IS-A relationship"
+        ],
+        "ideal_answer": "Inheritance allows one class to inherit properties and methods from another class using the extends keyword."
+      },
+      {
+        "id": 5,
+        "question": "What is polymorphism?",
+        "topic": "oops",
+        "concepts": [
+          "method overloading",
+          "method overriding",
+          "runtime binding"
+        ],
+        "ideal_answer": "Polymorphism allows methods to behave differently based on the object, achieved through method overloading and overriding."
+      },
+      {
+        "id": 6,
+        "question": "What is encapsulation?",
+        "topic": "oops",
+        "concepts": [
+          "data hiding",
+          "private variables",
+          "getters and setters"
+        ],
+        "ideal_answer": "Encapsulation is the process of hiding data using private variables and providing access through public getter and setter methods."
+      },
+      {
+        "id": 7,
+        "question": "What is an interface in Java?",
+        "topic": "oops",
+        "concepts": [
+          "abstract methods",
+          "implements keyword",
+          "multiple inheritance"
+        ],
+        "ideal_answer": "An interface is a blueprint of abstract methods that a class implements using the implements keyword."
+      },
+      {
+        "id": 8,
+        "question": "What is a constructor?",
+        "topic": "java_basics",
+        "concepts": [
+          "initialization",
+          "same name as class",
+          "no return type"
+        ],
+        "ideal_answer": "A constructor is a special method used to initialize objects and has the same name as the class."
+      },
+      {
+        "id": 9,
+        "question": "What is the difference between Array and ArrayList?",
+        "topic": "collections",
+        "concepts": [
+          "fixed size",
+          "dynamic size",
+          "java.util package"
+        ],
+        "ideal_answer": "Arrays have fixed size, while ArrayList is dynamic and part of the java.util collection framework."
+      },
+      {
+        "id": 10,
+        "question": "What is exception handling in Java?",
+        "topic": "exceptions",
+        "concepts": [
+          "try-catch",
+          "finally",
+          "checked vs unchecked"
+        ],
+        "ideal_answer": "Exception handling in Java uses try-catch-finally blocks to handle runtime errors and prevent program crashes."
+      }
+    ],
+    "medium": [
+      {
+        "id": 11,
+        "question": "What is Spring Framework?",
+        "topic": "spring",
+        "concepts": [
+          "dependency injection",
+          "inversion of control",
+          "enterprise applications"
+        ],
+        "ideal_answer": "Spring is a powerful framework for building enterprise Java applications using dependency injection and inversion of control."
+      },
+      {
+        "id": 12,
+        "question": "What is Spring Boot?",
+        "topic": "spring",
+        "concepts": [
+          "auto configuration",
+          "embedded server",
+          "microservices"
+        ],
+        "ideal_answer": "Spring Boot simplifies Spring applications by providing auto-configuration and embedded servers for rapid development."
+      },
+      {
+        "id": 13,
+        "question": "What is Hibernate?",
+        "topic": "database",
+        "concepts": [
+          "ORM",
+          "entity mapping",
+          "JPA"
+        ],
+        "ideal_answer": "Hibernate is an ORM framework that maps Java objects to database tables and simplifies database operations."
+      },
+      {
+        "id": 14,
+        "question": "What is JDBC?",
+        "topic": "database",
+        "concepts": [
+          "database connectivity",
+          "drivers",
+          "SQL execution"
+        ],
+        "ideal_answer": "JDBC is a Java API that allows Java applications to connect and execute queries on databases."
+      },
+      {
+        "id": 15,
+        "question": "What is REST in Java?",
+        "topic": "api",
+        "concepts": [
+          "HTTP methods",
+          "stateless",
+          "JSON"
+        ],
+        "ideal_answer": "REST in Java is implemented using frameworks like Spring Boot to create stateless web services using HTTP methods."
+      },
+      {
+        "id": 16,
+        "question": "What is multithreading?",
+        "topic": "concurrency",
+        "concepts": [
+          "Thread class",
+          "Runnable",
+          "parallel execution"
+        ],
+        "ideal_answer": "Multithreading allows multiple threads to run concurrently to improve performance."
+      },
+      {
+        "id": 17,
+        "question": "What is synchronization?",
+        "topic": "concurrency",
+        "concepts": [
+          "thread safety",
+          "synchronized keyword",
+          "critical section"
+        ],
+        "ideal_answer": "Synchronization ensures that only one thread accesses a resource at a time to prevent race conditions."
+      },
+      {
+        "id": 18,
+        "question": "What is a Maven project?",
+        "topic": "build_tools",
+        "concepts": [
+          "dependency management",
+          "pom.xml",
+          "build lifecycle"
+        ],
+        "ideal_answer": "Maven is a build automation tool that manages dependencies and project lifecycle using a pom.xml file."
+      },
+      {
+        "id": 19,
+        "question": "What is dependency injection?",
+        "topic": "spring",
+        "concepts": [
+          "loose coupling",
+          "constructor injection",
+          "IoC container"
+        ],
+        "ideal_answer": "Dependency injection is a design pattern where dependencies are provided by an external container to promote loose coupling."
+      },
+      {
+        "id": 20,
+        "question": "What is JPA?",
+        "topic": "database",
+        "concepts": [
+          "Java Persistence API",
+          "entity manager",
+          "ORM specification"
+        ],
+        "ideal_answer": "JPA is a specification for object-relational mapping in Java that allows managing relational data using objects."
+      }
+    ],
+    "hard": [
+      {
+        "id": 21,
+        "question": "What is the JVM architecture?",
+        "topic": "jvm",
+        "concepts": [
+          "class loader",
+          "heap memory",
+          "garbage collection"
+        ],
+        "ideal_answer": "JVM architecture includes class loaders, runtime data areas like heap and stack, and a garbage collector to manage memory."
+      },
+      {
+        "id": 22,
+        "question": "What is garbage collection in Java?",
+        "topic": "jvm",
+        "concepts": [
+          "memory management",
+          "heap cleanup",
+          "automatic"
+        ],
+        "ideal_answer": "Garbage collection automatically removes unused objects from heap memory to free resources."
+      },
+      {
+        "id": 23,
+        "question": "What is microservices architecture in Java?",
+        "topic": "system_design",
+        "concepts": [
+          "Spring Boot",
+          "independent services",
+          "API communication"
+        ],
+        "ideal_answer": "Microservices architecture divides applications into independent services built often using Spring Boot that communicate via APIs."
+      },
+      {
+        "id": 24,
+        "question": "How do you secure a Spring Boot application?",
+        "topic": "security",
+        "concepts": [
+          "Spring Security",
+          "JWT",
+          "role-based access"
+        ],
+        "ideal_answer": "Spring Boot applications are secured using Spring Security, JWT authentication, HTTPS, and role-based authorization."
+      },
+      {
+        "id": 25,
+        "question": "What is concurrency in Java?",
+        "topic": "concurrency",
+        "concepts": [
+          "ExecutorService",
+          "thread pools",
+          "parallelism"
+        ],
+        "ideal_answer": "Concurrency in Java is managed using ExecutorService and thread pools to efficiently handle multiple tasks in parallel."
+      },
+      {
+        "id": 26,
+        "question": "What is rate limiting in APIs?",
+        "topic": "system_design",
+        "concepts": [
+          "throttling",
+          "API protection",
+          "request limits"
+        ],
+        "ideal_answer": "Rate limiting restricts the number of API requests allowed within a time frame to prevent abuse."
+      },
+      {
+        "id": 27,
+        "question": "What is caching in Java applications?",
+        "topic": "system_design",
+        "concepts": [
+          "Redis",
+          "in-memory storage",
+          "performance improvement"
+        ],
+        "ideal_answer": "Caching stores frequently accessed data in memory using tools like Redis to improve performance."
+      },
+      {
+        "id": 28,
+        "question": "What is design pattern? Give examples.",
+        "topic": "design_patterns",
+        "concepts": [
+          "Singleton",
+          "Factory",
+          "Observer"
+        ],
+        "ideal_answer": "Design patterns are reusable solutions to common problems, such as Singleton, Factory, and Observer patterns."
+      },
+      {
+        "id": 29,
+        "question": "How does Spring Boot handle dependency injection?",
+        "topic": "spring",
+        "concepts": [
+          "@Autowired",
+          "IoC container",
+          "bean lifecycle"
+        ],
+        "ideal_answer": "Spring Boot uses an IoC container to manage beans and inject dependencies automatically using annotations like @Autowired."
+      },
+      {
+        "id": 30,
+        "question": "How do you optimize a Java application?",
+        "topic": "performance",
+        "concepts": [
+          "profiling",
+          "memory tuning",
+          "efficient algorithms"
+        ],
+        "ideal_answer": "Java applications are optimized by profiling, tuning JVM memory settings, improving algorithms, and using caching."
+      }
+    ]
+  }
+}

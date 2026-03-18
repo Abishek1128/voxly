@@ -1,0 +1,342 @@
+{
+    "role": "python_backend",
+    "technical_questions": {
+        "easy": [
+            {
+                "id": 1,
+                "question": "What is Python?",
+                "topic": "python_basics",
+                "concepts": [
+                    "high-level language",
+                    "interpreted",
+                    "general-purpose"
+                ],
+                "ideal_answer": "Python is a high-level, interpreted programming language known for its simple syntax and versatility in web, AI, automation, and backend development."
+            },
+            {
+                "id": 2,
+                "question": "What are variables in Python?",
+                "topic": "python_basics",
+                "concepts": [
+                    "data storage",
+                    "dynamic typing",
+                    "assignment"
+                ],
+                "ideal_answer": "Variables are used to store data in Python, and they do not require explicit type declarations because Python is dynamically typed."
+            },
+            {
+                "id": 3,
+                "question": "What are lists and dictionaries?",
+                "topic": "python_basics",
+                "concepts": [
+                    "list as ordered collection",
+                    "dictionary as key-value pairs",
+                    "mutable"
+                ],
+                "ideal_answer": "Lists are ordered collections of items, while dictionaries store data as key-value pairs. Both are mutable data structures."
+            },
+            {
+                "id": 4,
+                "question": "What is a function in Python?",
+                "topic": "python_basics",
+                "concepts": [
+                    "reusable code",
+                    "def keyword",
+                    "parameters and return"
+                ],
+                "ideal_answer": "A function is a reusable block of code defined using the def keyword, which can take parameters and return values."
+            },
+            {
+                "id": 5,
+                "question": "What is the difference between list and tuple?",
+                "topic": "python_basics",
+                "concepts": [
+                    "mutability",
+                    "syntax difference",
+                    "performance"
+                ],
+                "ideal_answer": "Lists are mutable and use square brackets, while tuples are immutable and use parentheses."
+            },
+            {
+                "id": 6,
+                "question": "What is OOP in Python?",
+                "topic": "oops",
+                "concepts": [
+                    "classes and objects",
+                    "encapsulation",
+                    "inheritance"
+                ],
+                "ideal_answer": "OOP in Python is a programming paradigm based on classes and objects, supporting concepts like encapsulation, inheritance, and polymorphism."
+            },
+            {
+                "id": 7,
+                "question": "What is a class and object?",
+                "topic": "oops",
+                "concepts": [
+                    "blueprint",
+                    "instance",
+                    "attributes and methods"
+                ],
+                "ideal_answer": "A class is a blueprint for creating objects, and an object is an instance of a class with attributes and methods."
+            },
+            {
+                "id": 8,
+                "question": "What is a REST API?",
+                "topic": "api",
+                "concepts": [
+                    "client-server communication",
+                    "HTTP methods",
+                    "stateless"
+                ],
+                "ideal_answer": "A REST API is a web service that allows communication between client and server using HTTP methods like GET, POST, PUT, and DELETE."
+            },
+            {
+                "id": 9,
+                "question": "What is JSON?",
+                "topic": "api",
+                "concepts": [
+                    "data format",
+                    "key-value structure",
+                    "API communication"
+                ],
+                "ideal_answer": "JSON is a lightweight data format used to store and exchange data between client and server in APIs."
+            },
+            {
+                "id": 10,
+                "question": "What is a database?",
+                "topic": "database",
+                "concepts": [
+                    "data storage",
+                    "tables or collections",
+                    "persistent data"
+                ],
+                "ideal_answer": "A database is a system used to store, manage, and retrieve structured or unstructured data efficiently."
+            }
+        ],
+        "medium": [
+            {
+                "id": 11,
+                "question": "What is Flask?",
+                "topic": "fastapi_flask",
+                "concepts": [
+                    "micro web framework",
+                    "routing",
+                    "lightweight"
+                ],
+                "ideal_answer": "Flask is a lightweight Python web framework used to build web applications and APIs with simple routing and minimal setup."
+            },
+            {
+                "id": 12,
+                "question": "What is FastAPI?",
+                "topic": "fastapi_flask",
+                "concepts": [
+                    "modern framework",
+                    "async support",
+                    "automatic validation"
+                ],
+                "ideal_answer": "FastAPI is a modern Python web framework that supports asynchronous programming and automatic request validation using type hints."
+            },
+            {
+                "id": 13,
+                "question": "Difference between Flask and FastAPI",
+                "topic": "fastapi_flask",
+                "concepts": [
+                    "performance",
+                    "async support",
+                    "automatic docs"
+                ],
+                "ideal_answer": "Flask is simple and synchronous, while FastAPI is faster, supports async programming, and automatically generates API documentation."
+            },
+            {
+                "id": 14,
+                "question": "What is an HTTP request and response?",
+                "topic": "api",
+                "concepts": [
+                    "client request",
+                    "server response",
+                    "status codes"
+                ],
+                "ideal_answer": "An HTTP request is sent by a client to a server, and the server processes it and returns an HTTP response with data and status codes."
+            },
+            {
+                "id": 15,
+                "question": "What is CRUD in backend development?",
+                "topic": "database",
+                "concepts": [
+                    "create",
+                    "read",
+                    "update",
+                    "delete"
+                ],
+                "ideal_answer": "CRUD refers to the four basic database operations: Create, Read, Update, and Delete."
+            },
+            {
+                "id": 16,
+                "question": "What is ORM?",
+                "topic": "database",
+                "concepts": [
+                    "object relational mapping",
+                    "models",
+                    "database abstraction"
+                ],
+                "ideal_answer": "ORM is a technique that allows developers to interact with databases using objects instead of writing raw SQL queries."
+            },
+            {
+                "id": 17,
+                "question": "What is authentication?",
+                "topic": "authentication",
+                "concepts": [
+                    "user identity",
+                    "login",
+                    "credentials verification"
+                ],
+                "ideal_answer": "Authentication is the process of verifying a user's identity using credentials like username and password."
+            },
+            {
+                "id": 18,
+                "question": "What is authorization?",
+                "topic": "authentication",
+                "concepts": [
+                    "access control",
+                    "permissions",
+                    "roles"
+                ],
+                "ideal_answer": "Authorization determines what actions or resources an authenticated user is allowed to access."
+            },
+            {
+                "id": 19,
+                "question": "What is JWT?",
+                "topic": "authentication",
+                "concepts": [
+                    "token-based auth",
+                    "header payload signature",
+                    "stateless sessions"
+                ],
+                "ideal_answer": "JWT is a token-based authentication method that securely transmits user information between client and server."
+            },
+            {
+                "id": 20,
+                "question": "What is middleware in a backend framework?",
+                "topic": "api",
+                "concepts": [
+                    "request processing",
+                    "response handling",
+                    "cross-cutting concerns"
+                ],
+                "ideal_answer": "Middleware is a component that processes requests and responses, often used for logging, authentication, or error handling."
+            }
+        ],
+        "hard": [
+            {
+                "id": 21,
+                "question": "What is asynchronous programming in Python?",
+                "topic": "async",
+                "concepts": [
+                    "async and await",
+                    "non-blocking operations",
+                    "event loop"
+                ],
+                "ideal_answer": "Asynchronous programming allows tasks to run concurrently using async and await, improving performance for I/O-bound operations."
+            },
+            {
+                "id": 22,
+                "question": "What is the difference between synchronous and asynchronous code?",
+                "topic": "async",
+                "concepts": [
+                    "blocking vs non-blocking",
+                    "execution flow",
+                    "performance"
+                ],
+                "ideal_answer": "Synchronous code runs step by step, while asynchronous code allows tasks to run without blocking the main execution."
+            },
+            {
+                "id": 23,
+                "question": "What is dependency injection in FastAPI?",
+                "topic": "fastapi_flask",
+                "concepts": [
+                    "reusable components",
+                    "automatic injection",
+                    "clean architecture"
+                ],
+                "ideal_answer": "Dependency injection in FastAPI allows reusable components like database connections to be automatically provided to route functions."
+            },
+            {
+                "id": 24,
+                "question": "How does a backend handle file uploads?",
+                "topic": "api",
+                "concepts": [
+                    "multipart forms",
+                    "file storage",
+                    "validation"
+                ],
+                "ideal_answer": "Backends handle file uploads using multipart form data, then validate and store files in a server or cloud storage."
+            },
+            {
+                "id": 25,
+                "question": "What is rate limiting?",
+                "topic": "system_design",
+                "concepts": [
+                    "request control",
+                    "prevent abuse",
+                    "API protection"
+                ],
+                "ideal_answer": "Rate limiting restricts the number of requests a client can make within a certain time to prevent abuse and overload."
+            },
+            {
+                "id": 26,
+                "question": "What is caching in backend systems?",
+                "topic": "system_design",
+                "concepts": [
+                    "temporary storage",
+                    "faster response",
+                    "reduced database load"
+                ],
+                "ideal_answer": "Caching stores frequently accessed data temporarily to reduce database load and improve response time."
+            },
+            {
+                "id": 27,
+                "question": "What is a microservices architecture?",
+                "topic": "system_design",
+                "concepts": [
+                    "independent services",
+                    "scalability",
+                    "loose coupling"
+                ],
+                "ideal_answer": "Microservices architecture divides an application into small, independent services that communicate over APIs."
+            },
+            {
+                "id": 28,
+                "question": "How would you design a simple login system?",
+                "topic": "system_design",
+                "concepts": [
+                    "authentication",
+                    "password hashing",
+                    "token generation"
+                ],
+                "ideal_answer": "A login system verifies user credentials, stores hashed passwords, and generates tokens like JWT for authenticated sessions."
+            },
+            {
+                "id": 29,
+                "question": "What is database indexing?",
+                "topic": "database",
+                "concepts": [
+                    "faster queries",
+                    "index structure",
+                    "search optimization"
+                ],
+                "ideal_answer": "Database indexing improves query performance by creating a structured lookup for faster data retrieval."
+            },
+            {
+                "id": 30,
+                "question": "How do you secure a backend API?",
+                "topic": "system_design",
+                "concepts": [
+                    "authentication",
+                    "HTTPS",
+                    "input validation"
+                ],
+                "ideal_answer": "A backend API is secured using authentication, HTTPS encryption, input validation, and proper access controls."
+            }
+        ]
+    }
+}
